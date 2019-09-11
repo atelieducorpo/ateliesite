@@ -12,8 +12,8 @@
 
       <!-- Content -->
       <div class="container">
-      <h5 class="text-uppercase">Salão de Beleza Atelie du Corpo</h5>
-      <p>Visite nossas páginas na internet.</p>
+      <h5 class="text-uppercase">Footer Content</h5>
+      <p>Here you can use rows and columns to organize your footer content.</p>
       </div>
 
     </div>
@@ -29,16 +29,16 @@
 
       <ul class="list-unstyled">
         <li>
-          <a class="fab fa-facebook" href="#!"></a>
+          <a class="fab fa-facebook" href="#!">facebook</a>
         </li>
         <li>
-        <a class="fab fa-instagram" href="#!"></a>
+        <a class="fab fa-instagram" href="#!">instagram</a>
         </li>
         <li>
-          <a class="fab fa-twitter" href="#!"></a>
+          <a class="fab fa-twitter" href="#!">twitter</a>
         </li>
         <li>
-        <a class="fab fa-whatsapp-square" href="#!"></a>
+        <a class="fab fa-whatsapp-square" href="#!">(21)9999-9999</a>
         </li>
       </ul>
 
@@ -58,7 +58,7 @@
 <div class="footer-copyright text-center bg-primary py-3">© 2018 Copyright:
   <a class="text-white" href="https://mdbootstrap.com/education/bootstrap/"> Atelieducorpoficial.com</a>
 </div>
-
+<!-- Copyright -->
 
 </footer>
 <!-- Footer -->
