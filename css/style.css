@@ -20,7 +20,16 @@ h1 {
   }
 
 
+.userPhoto {
+  width: 32px;
+  height: 32px;
+  float: left;
+  margin-right: .5rem;
+  border-radius: 50%;
+}
 
-
+#logout {
+  display: none;
+}
 
    
