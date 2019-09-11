@@ -12,8 +12,8 @@
 
       <!-- Content -->
       <div class="container">
-      <h5 class="text-uppercase">SALÃO DE BELEZA ATELIE DU CORPO</h5>
-      <p>Visite nossa página na intetnet!.</p>
+      <h5 class="text-uppercase">Salão de Beleza Atelie du Corpo</h5>
+      <p>Visite nossas páginas na internet.</p>
       </div>
 
     </div>
@@ -29,16 +29,16 @@
 
       <ul class="list-unstyled">
         <li>
-          <a class="fab fa-facebook" href="#!">facebook</a>
+          <a class="fab fa-facebook" href="#!"></a>
         </li>
         <li>
-        <a class="fab fa-instagram" href="#!">instagram</a>
+        <a class="fab fa-instagram" href="#!"></a>
         </li>
         <li>
-          <a class="fab fa-twitter" href="#!">twitter</a>
+          <a class="fab fa-twitter" href="#!"></a>
         </li>
         <li>
-        <a class="fab fa-whatsapp-square" href="#!">(21)9999-9999</a>
+        <a class="fab fa-whatsapp-square" href="#!"></a>
         </li>
       </ul>
 
@@ -58,7 +58,7 @@
 <div class="footer-copyright text-center bg-primary py-3">© 2018 Copyright:
   <a class="text-white" href="https://mdbootstrap.com/education/bootstrap/"> Atelieducorpoficial.com</a>
 </div>
-<!-- Copyright -->
+
 
 </footer>
 <!-- Footer -->

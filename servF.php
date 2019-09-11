@@ -72,4 +72,3 @@
       </div>       
     
       <?php require('_footer.php')?>
-      <script src="js/cad.js"></script>
