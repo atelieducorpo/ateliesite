@@ -1,5 +1,5 @@
- // Your web app's Firebase configuration
- var firebaseConfig = {
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
     apiKey: "AIzaSyDtNZIxi12reDquEEnyIG2U7sdhF12RZRg",
     authDomain: "atelieducorpoapp.firebaseapp.com",
     databaseURL: "https://atelieducorpoapp.firebaseio.com",

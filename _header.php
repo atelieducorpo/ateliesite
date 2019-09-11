@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
        <head>
         <title>Salão de Beleza - Home</title>
         <link rel="stylesheet" href="css/all.min.css">
