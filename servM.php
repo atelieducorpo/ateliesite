@@ -42,10 +42,10 @@
     <a href="#"><img class="card-img-top" src="img/corte.jpg"></a>
     <div class="card-body">
       <h4 class="card-title">
-        <a href="#">Item One</a>
+        <a href="cad.php">Cortes de cabelo Masculino</a>
       </h4>
       <h5>$24.99</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      <p class="card-text">Traga um amigo e ganhe um desconto no corte.</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -58,10 +58,10 @@
     <a href="#"><img class="card-img-top" src="img/depm.jpg"> </a>
     <div class="card-body">
       <h4 class="card-title">
-        <a href="#">Item Two</a>
+      <a href="cad.php">Depilação Masculina</a>
       </h4>
       <h5>$24.99</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+      <p class="card-text">Faça depilação com cera quente ou fria e ganhe uma hidratação na pele.</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -74,10 +74,10 @@
     <a href="#"><img class="card-img-top" src="img/limpele.jpg"> </a>
     <div class="card-body">
       <h4 class="card-title">
-        <a href="#">Item Three</a>
+      <a href="cad.php">Limpeza de Pele Masculina</a>
       </h4>
       <h5>$24.99</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      <p class="card-text">A limpeza de pele tem desconto de 10% no pagamento em dinheiro</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -90,10 +90,10 @@
     <a href="#"><img class="card-img-top" src="img/sobranm.jpg"></a>
     <div class="card-body">
       <h4 class="card-title">
-        <a href="#">Item Four</a>
+      <a href="cad.php">Sobracelha Masculina</a>
       </h4>
       <h5>$24.99</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      <p class="card-text">Faça a sobracelha na cera e ganhe uma aplicação de henna na próxima vez</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -106,10 +106,10 @@
     <a href="#"><img class="card-img-top" src="img/massmodm.jpg"></a>
     <div class="card-body">
       <h4 class="card-title">
-        <a href="#">Item Five</a>
+      <a href="cad.php">Massagem Model. Masculina</a>
       </h4>
       <h5>$24.99</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur! Lorem ipsum dolor sit amet.</p>
+      <p class="card-text">Venha Fazer uma massagem modeladora e ganhe um gel redutor</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
@@ -122,10 +122,10 @@
     <a href="#"><img class="card-img-top" src="img/unhasm.jpg">  </a>
     <div class="card-body">
       <h4 class="card-title">
-        <a href="#">Item Six</a>
+      <a href="cad.php">FUnhas Masculina</a>
       </h4>
       <h5>$24.99</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+      <p class="card-text">Os serviços de unhas tem 10% de desconto no pagamento em dinheiro</p>
     </div>
     <div class="card-footer">
       <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>

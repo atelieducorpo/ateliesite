@@ -36,12 +36,7 @@
                     <a class="nav-link" href="cad.php">Cadastre-se</a>
                    </li>
                    <li class="nav-item">
-                    <span class="nav-link">
-                        <a class="nav-link" href="javaScript:void(0)" id="login">Login</a>
-                        <a href="https://myaccount.google.com/" target="_blank" id="user"></a>
-                        <a href="javaScript:void(0)" id="logout">Logout</a>
-                    </span>
-                    
+                    <a class="nav-link" href="javaScript:void(0)" id="login">Login</a>
                    </li>
                  </ul>
               </div>
