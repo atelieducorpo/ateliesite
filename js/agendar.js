@@ -28,12 +28,14 @@ function processaForm(){
     var formEmail = sanitiza($('#email').val());
     var formServico = sanitiza($('#servico').val());
     var formData = sanitiza($('#dataservico').val());
+    var formHorario = sanitiza($('#horarioservico').val());
 
     // Atualizando campos com valores sanitizados
     $('#nome').val(formNome);
     $('#email').val(formEmail);
     $('#servico').val(formServico);
     $('#dataservico').val(formData);
+    $('#horarioservico').val(formHorario);
 
     // Validando nome
     if (formNome.length < 3) {
@@ -56,7 +58,12 @@ function processaForm(){
 
     // Validando data
     if (formData.length < 5) {
-        erro += '<li>Escolha a data e hora.</li>';
+        erro += '<li>Escolha a data.</li>';
+    }
+
+    // Validando horario
+    if (formHorario.length < 5) {
+        erro += '<li>A mensagem está muito curta.</li>';
     }
 
     // Se não ocorreram erros...
@@ -72,13 +79,15 @@ function processaForm(){
             email: formEmail,
             servico: formServico,
             data: formData,
+            horario: formHorario,
             status: 'recebido'
         })
         .then(function(docRef) { // Se gravou no Firebase
             msg = `
 <h3>Olá ${nome[0]}!</h3>
-<p>Seu serviço foi agendado com sucesso!</p>
-Obrigado...
+<p> Seu serviço ${formServico} foi agendado com sucesso para o dia ${formData} às ${formHorario}</p>
+ <p> Obrigado pela preferência!</p>
+<p> VOLTE SEMPRE!</p>
             `;
             $('#msgFb').html(msg);
             $('#agendar').hide('fast', function(){
