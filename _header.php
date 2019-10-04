@@ -15,7 +15,7 @@
 
      <body>
      <header>
-        <nav class="navbar navbar-expand-sm bg-info navbar-dark fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-sm bg-info navbar-dark " id="mainNav">
            <div class="container">
              <a class="navbar-brand h1 mb-0" href="index.php">Atelie du corpo</a>
              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -33,18 +33,19 @@
                       <a class="nav-link" href="qsm.php">Quem Somos</a>
                    </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="cad.php">Cadastre-se</a>
-                   </li>
-                   <li class="nav-item">
-                    <a class="nav-link" href="javaScript:void(0)" id="login">Login</a>
+                    <a class="nav-link" href="cad.php">Fale conosco</a>
                    </li>
                  </ul>
               </div>
              </div>
            </nav>
         </header>
-        <div class="jumbotron text-center mt-5">
-          <p></p>
+        <div id="userBox">
+           <span id="userData"></span>
+           <a href="JavaScript:void(0)" id="btnLogin">Login / Entrar</a>
+           <a href="JavaScript:void(0)" id="btnLogout" style="display:none">Logout / Sair</a>
+        </div>
+<div class="jumbotron text-center">
           <h1>Salão de Beleza Atelie du Corpo</h1>
 
         </div>

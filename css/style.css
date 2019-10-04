@@ -36,5 +36,9 @@ p{
   font-size: 25px;
 }
 
-
-   
+#userBox {
+  background: rgb(190, 252, 233);
+  display: block;
+  width: 100%;
+  flex-grow: 2;
+}

@@ -1,3 +1,4 @@
+
 <?php require('_header.php') ?>
 <div class="container">
   <center>
@@ -32,6 +33,7 @@
 
     </div>
   </center>
+  <link rel="stylesheet" href="css/servM.css">
 
 
   <!-- -->
@@ -48,7 +50,7 @@
           <p class="card-text">Traga uma pessoa e ganhe um desconto</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        <p><a href="agendar.php?serv=Corte de cabelo Feminino" target="_none" class="btn btnServ" data-serv="Corte de Cabelo">Agendar</a></p>
         </div>
       </div>
     </div>
@@ -64,7 +66,7 @@
           <p class="card-text">Faça depilação com cera quente ou fria e ganhe e ganhe uma hidratação na pele.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        <p><a href="agendar.php?serv=Depilação Feminina" target="_none" class="btn btnServ" data-serv="Depilação Feminina">Agendar</a></p>
         </div>
       </div>
     </div>
@@ -80,7 +82,7 @@
           <p class="card-text">A limpeza de pele tem desconto de 10% no pagamento em dinheiro</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        <p><a href="agendar.php?serv=Limpeza de pele Feminina" target="_none" class="btn btnServ" data-serv="Limpeza de pele Feminina">Agendar</a></p>
         </div>
       </div>
     </div>
@@ -90,13 +92,13 @@
         <a href="#"><img class="card-img-top" src="img/sobran.jpg"></a>
         <div class="card-body">
           <h4 class="card-title">
-            <a href="cad.php">Sombrancelha Feminina</a>
+            <a href="cad.php">Sobrancelha Feminina</a>
           </h4>
           <h5>$24.99</h5>
           <p class="card-text">Faça a Sobrancelha e ganhe uma aplicação e henna na próxima vez</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        <p><a href="agendar.php?serv=Sobrancelha Feminina" target="_none" class="btn btnServ" data-serv="Sobrancelha Feminina">Agendar</a></p>
         </div>
       </div>
     </div>
@@ -112,7 +114,7 @@
           <p class="card-text">Venha fazer uma Massagem modeladora e ganhe um gel redutor.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+        <p><a href="agendar.php?serv=Massagem Model. Feminina" target="_none" class="btn btnServ" data-serv="Massagem Model. Feminina">Agendar</a></p>
         </div>
       </div>
     </div>
@@ -128,13 +130,15 @@
           <p class="card-text">Os Serviços de unhas tem 10% de desconto no pagamento em dinheiro.</p>
         </div>
         <div class="card-footer">
-          <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
-        </div>
+        <p><a href="agendar.php?serv=Unhas Feminina" target="_none" class="btn btnServ" data-serv="Unhas Feminina">Agendar</a></p>
+      </div>
       </div>
     </div>
 
   </div>
   <!-- /.row -->
 </div>
+
+<script src="js/servM.js"></script>
 
 <?php require('_footer.php') ?>

@@ -1,3 +1,12 @@
+<style>
+  .social {
+    line-height: 1.3;
+    text-align: center;
+}
+.social a{
+    font-size: 3rem;
+} 
+  </style>
 <!-- Footer -->
 <footer class="page-footer bg-info text-white blue pt-4 my-5">
 
@@ -13,7 +22,7 @@
         <!-- Content -->
         <div class="container">
           <h5 class="text-uppercase">Salão de Beleza Atelie du Corpo</h5>
-          <p>Visite nossas páginas na internet.</p>
+          <p>Todo mundo ama ter um dia de beleza </p>
         </div>
 
       </div>
@@ -27,20 +36,18 @@
         <!-- Links -->
         <h5 class="text-uppercase">Redes Sociais</h5>
 
-        <ul class="list-unstyled">
-          <li>
-            <a class="fab fa-facebook" href="#!">Facebook</a>
-          </li>
-          <li>
-            <a class="fab fa-instagram" href="#!">Instagram</a>
-          </li>
-          <li>
-            <a class="fab fa-twitter" href="#!">Twitter</a>
-          </li>
-          <li>
-            <a class="fab fa-whatsapp-square" href="#!">(21)99999-9999</a>
-          </li>
-        </ul>
+        <div class="social">
+
+          <p>Visite nossas páginas na internet.</p>
+
+          <div>
+            <a href="http://facebook.com/" target="_blank"><i class="fab fa-fw fa-facebook"></i></a>
+            <a href="http://instagram.com/" target="_blank"><i class="fab fa-fw fa-instagram"></i></a>
+            <a href="http://twitter.com/" target="_blank"><i class="fab fa-fw fa-twitter"></i></a>
+            <a href="http://wweb.whatsapp.com/" target="_blank"><i class="fab fa-fw fa-whatsapp-square"></i></a>
+          </div>
+
+        </div>
 
       </div>
 
@@ -64,11 +71,12 @@
 <!-- Footer -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 
+<script src="js/jquery.min.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-firestore.js"></script>
+<script src="js/functions.js"></script>
 <script src="js/firebase.js"></script>
-
 </body>
 
 </html>
